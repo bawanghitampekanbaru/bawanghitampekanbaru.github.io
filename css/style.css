@@ -1,5 +1,5 @@
-/*start font*/
-import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/*start font*/ 
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 /*end font*/
 
 /*start body*/
@@ -240,11 +240,10 @@ h6 {
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 230px;
-  max-width: 315px;
-  width: 100%;
+  width: 30%;
   font-size: 16px;
   line-height: 1.2em;
+  display: inline-block;
 }
 
 .snip1513 *,
@@ -315,6 +314,8 @@ h6 {
 
 .snip1513:hover a,
 .snip1513.hover a {
+    /* edit text didalam gambar */
+    text-decoration: none;
   opacity: 1;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -331,4 +332,3 @@ h6 {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
-?*End Effect*/
