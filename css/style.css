@@ -90,13 +90,13 @@ a:active {
 }
 
 .menu-primer a:hover {
-    background-color: white;
+    background-color: khaki;
     color: black;
     text-decoration-color: none;
 }
 
 .menu-primer .active {
-    background-color: #f7f7f7;
+    background-color: khaki;
     color: black;
     text-decoration: none;
 }
@@ -129,7 +129,7 @@ h6 {
 
 /*start jumbotron*/
 .jumbotron {
-    background-color: white;
+    background-color: khaki;
     border: 1px solid #eaecef;
     border-radius: 4px;
     padding: 20px 0;
@@ -145,7 +145,7 @@ h6 {
 .jumbotron-left {
     float: left;
     width: 50%;
-    margin: 0 0 0 250px;
+    margin: 30px 200px -50px 250px;
 }
 
 .jumbotron-right {
@@ -203,7 +203,7 @@ h6 {
 /*start box*/
 .box-heading {
     background-color: khaki;
-    border: 1px solid black;
+    border: 1px solid darkkhaki;
     border-radius: 3px 3px 0 0;
     margin: 0;
     padding: 10px 20px;
@@ -217,7 +217,7 @@ h6 {
 
 .box-isi {
     background-color: white;
-    border: 1px solid gray;
+    border: 1px solid darkkhaki;
     border-top: 0;
     margin: 0;
     padding: 10px 20px;
@@ -234,14 +234,11 @@ h6 {
 
 /*Start Produk Table*/
 .produk-table {
-    border: 1px solid blueviolet;
+    border: 1px solid darkkhaki;
+    background-color: beige;
     border-collapse: collapse;
     margin: auto;
     width: 100%;
-}
-
-.produk-table th {
-    background-color: #f6f8fa;
 }
 
 .produk-table td {
@@ -459,7 +456,7 @@ figure.snip1416.hover figcaption h3:nth-of-type(2) {
 }
 
 .opening {
-    font-family: 'Damion', cursive;
+    font-family: 'Playball', cursive;
     font-size: 30px;
     font-weight: 900;
 }
@@ -472,8 +469,8 @@ figure.snip1365 {
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 20%;
-  max-width: 20%;
+  min-width: 23%;
+  max-width: 23%;
   max-height: 220px;
   width: 20%;
   color: #ffffff;
@@ -483,6 +480,7 @@ figure.snip1365 {
   perspective: 50em;
   background-color: #000000;
   text-transform: uppercase;
+  display: inline-block;
 }
 
 figure.snip1365 * {
@@ -593,12 +591,12 @@ figure.snip1365.hover li:nth-child(3) {
   transition-delay: 0.3s;
 }
 figure.snip1365 button {
-    width: 200px;
+    width: 100px;
     height: 35px;
     background: transparent;
     border-style: groove;
     border-radius: 50px;
-    margin: 50px 10px 10px 10px;
+    margin: 60px 10px 10px 10px;
 }
 
 figure.snip1365 button:hover {
@@ -612,5 +610,125 @@ figure.snip1365 button:hover {
     font-family: 'Kaushan Script', cursive;
     font-size: 30px; 
     font-weight: 900;
-    margin: 50px 10px 10px 10px;
+    margin: 10px 0px 10px 10px;
 }
+
+/*Start Promo*/
+/* Icon set - http://ionicons.com */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1268 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  color: #333333;
+  text-align: center;
+  background-color: #ffffff;
+  line-height: 1.6em;
+}
+.snip1268 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.snip1268 .image {
+  position: relative;
+}
+.snip1268 img {
+  max-width: 100%;
+  vertical-align: top;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+.snip1268 .icons,
+.snip1268 .add-to-cart {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  opacity: 0;
+}
+.snip1268 .icons {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.snip1268 .icons a {
+  width: 32.5%;
+  background: #ffffff;
+}
+.snip1268 .icons a:hover {
+  background: #000000;
+}
+.snip1268 .icons a:hover i {
+  color: #ffffff;
+  opacity: 1;
+}
+.snip1268 .icons i {
+  line-height: 46px;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  opacity: 0.7;
+  margin: 0;
+}
+.snip1268 .add-to-cart {
+  position: absolute;
+  bottom: 20px;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  font-size: 0.8em;
+  color: #000000;
+  line-height: 46px;
+  letter-spacing: 1.5px;
+  background-color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.snip1268 .add-to-cart:hover {
+  background: #000000;
+  color: #ffffff;
+}
+.snip1268 figcaption {
+  padding: 20px 20px 30px;
+}
+.snip1268 h2,
+.snip1268 p {
+  margin: 0;
+  text-align: left;
+}
+.snip1268 h2 {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.snip1268 p {
+  margin-bottom: 15px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+.snip1268 .price {
+  font-size: 1.3em;
+  opacity: 0.5;
+  font-weight: 700;
+  text-align: right;
+}
+.snip1268:hover img,
+.snip1268.hover img {
+  opacity: 0.8;
+}
+.snip1268:hover .icons,
+.snip1268.hover .icons,
+.snip1268:hover .add-to-cart,
+.snip1268.hover .add-to-cart {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+/*End Promo*/
