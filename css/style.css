@@ -129,7 +129,7 @@ h6 {
 
 /*start jumbotron*/
 .jumbotron {
-    background-color: khaki;
+    background-color: white;
     border: 1px solid #eaecef;
     border-radius: 4px;
     padding: 20px 0;
@@ -337,13 +337,6 @@ input[type="submit"],
 }
 /*end copyright*/
 
-/*start effect menu*/
-.pengaturan-img {
-    opacity: 0.8;
-    width: 50%;
-    -webkit-transition: opacity 0.35s;
-    transition: opacity 0.35s;
-  }
 
 /*start effect*/
 @import url(https://fonts.googleapis.com/css?family=Raleway:500,900);
@@ -466,7 +459,158 @@ figure.snip1416.hover figcaption h3:nth-of-type(2) {
 }
 
 .opening {
-    font-family: 'Just Another Hand', cursive;
+    font-family: 'Damion', cursive;
     font-size: 30px;
     font-weight: 900;
+}
+
+/*Start Effect Isi*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,700);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip1365 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 20%;
+  max-width: 20%;
+  max-height: 220px;
+  width: 20%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+  background-color: #000000;
+  text-transform: uppercase;
+}
+
+figure.snip1365 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+figure.snip1365 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+figure.snip1365 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0;
+  padding: 30px 10px 30px 0;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+figure.snip1365 h3,
+figure.snip1365 .links {
+  width: 100%;
+  position: absolute;
+  margin: 5px 0;
+  padding: 0;
+}
+
+figure.snip1365 h3 {
+  line-height: 1.1em;
+  font-weight: 700;
+  font-size: 1.4em;
+  bottom: 50%;
+}
+
+figure.snip1365 .links {
+  top: 50%;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+figure.snip1365 .links li {
+  display: inline-block;
+  -webkit-transform: translateY(40px);
+  transform: translateY(40px);
+  opacity: 0;
+  list-style: none;
+}
+
+figure.snip1365 a {
+  padding: 50px auto;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+figure.snip1365 a:hover {
+  color: #f39c12;
+}
+
+figure.snip1365:hover img,
+figure.snip1365.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+figure.snip1365:hover figcaption,
+figure.snip1365.hover figcaption {
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+
+figure.snip1365:hover li,
+figure.snip1365.hover li {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+figure.snip1365:hover li:first-child,
+figure.snip1365.hover li:first-child {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+figure.snip1365:hover li:nth-child(2),
+figure.snip1365.hover li:nth-child(2) {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+figure.snip1365:hover li:nth-child(3),
+figure.snip1365.hover li:nth-child(3) {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+figure.snip1365 button {
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    border-style: groove;
+    border-radius: 50px;
+    margin: 50px 10px 10px 10px;
+}
+
+figure.snip1365 button:hover {
+    
+    background: darkolivegreen;
+    
+}
+/*End Effect Isi*/
+
+.isi {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px; 
+    font-weight: 900;
+    margin: 50px 10px 10px 10px;
 }
