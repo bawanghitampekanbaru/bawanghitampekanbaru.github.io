@@ -4,7 +4,7 @@
 
 /*start body*/
 body {
-    background-color: white;
+    background-image: url("../images/bgg.jpg");
     color:black;
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -71,22 +71,17 @@ a:active {
 
 /*start menu primer*/
 .menu-primer ul {
-    background-color: grey ;
     border-radius: 4px;
-    box-shadow: 
-        0 3px 5px -1px rgba(0,0,0,.2),
-        0 6px 10px 0 rgba(0,0,0,.14),
-        0 1px 18px 0 rgba(0,0,0,.12);
     }
 
 .menu-primer li {
-    border-right: 1px solid black;
+    border-right: 1px solid;
     display: inline-block;
     margin: 0 -4px;
 }
 
 .menu-primer a{
-    color: black;
+    color: rgb(58, 49, 49);
     font-size: 13px;
     display: inline-block;
     padding: 10px 20px;
@@ -95,7 +90,7 @@ a:active {
 }
 
 .menu-primer a:hover {
-    background-color: red;
+    background-color: white;
     color: black;
     text-decoration-color: none;
 }
@@ -134,7 +129,7 @@ h6 {
 
 /*start jumbotron*/
 .jumbotron {
-    background-color: #f6f8fa;
+    background-color: khaki;
     border: 1px solid #eaecef;
     border-radius: 4px;
     padding: 20px 0;
@@ -147,6 +142,18 @@ h6 {
     font-size: 20px;
     padding: 0 20px;
 }
+.jumbotron-left {
+    float: left;
+    width: 50%;
+    margin: 0 0 0 250px;
+}
+
+.jumbotron-right {
+    float: right;
+    width: 50%;
+    margin: -140px 200px 0 0;
+}
+
 /*end jumbotron*/
 
 /*start main*/
@@ -170,6 +177,20 @@ h6 {
     overflow: auto;
     width: 70%;
 }
+
+.main-home-logo {
+    float: left;
+    width: 15%;
+    margin: 100px 0 0 0;
+}
+
+.main-home-menu {
+    float: right;
+    width: 85%;
+    margin: 100px 0 0 0;
+}
+
+
 /*end main*/
 
 /*start sidebar*/
@@ -181,7 +202,7 @@ h6 {
 
 /*start box*/
 .box-heading {
-    background-color: beige;
+    background-color: khaki;
     border: 1px solid black;
     border-radius: 3px 3px 0 0;
     margin: 0;
@@ -195,15 +216,15 @@ h6 {
 }
 
 .box-isi {
-    background-color: brown;
-    border: 1px solid wheat;
+    background-color: white;
+    border: 1px solid gray;
     border-top: 0;
     margin: 0;
     padding: 10px 20px;
 }
 /*end box*/
 
-/*start testimmonial*/
+/*start testimonial*/
 .testimonial {
     border-left: 4px solid #dfe2e5;
     margin-left: 30px;
@@ -268,7 +289,7 @@ input[type="submit"],
 
 /*Start Menu Sekunder*/
 .menu-sekunder {
-    background-color: #f6f8fa;
+    background-color: khaki;
     border-bottom: 1px solid #eaecef;
     border-top: 1px solid #eaecef;
     overflow: auto;
@@ -316,103 +337,136 @@ input[type="submit"],
 }
 /*end copyright*/
 
+/*start effect menu*/
+.pengaturan-img {
+    opacity: 0.8;
+    width: 50%;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+  }
+
 /*start effect*/
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-.snip1513 {
+@import url(https://fonts.googleapis.com/css?family=Raleway:500,900);
+figure.snip1416 {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
   position: relative;
   overflow: hidden;
-  margin: 10px;
-  width: 30%;
-  font-size: 16px;
-  line-height: 1.2em;
-  display: inline-block;
+  margin: 0 auto;
+  min-width: 100%;
+  max-height: 220px;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
 }
-
-.snip1513 *,
-.snip1513 *:before,
-.snip1513 *:after {
+figure.snip1416 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
-
-.snip1513:before {
+figure.snip1416 img {
+  opacity: 0.8;
+  width: 100%;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip1416 figcaption {
   position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
-  content: '';
-  background-color: #ffffff;
-  opacity: 0;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
-
-.snip1513 img {
-  max-width: 100%;
-  vertical-align: top;
-}
-
-.snip1513 .icons {
-  position: absolute;
-  top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+figure.snip1416 figcaption > div {
+  height: 50%;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+figure.snip1416 h2,
+figure.snip1416 h3 {
+    text-align: center;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  padding: 0 30px;
 }
 
-.snip1513 a {
-  margin: 2px;
+figure.snip1416 h2 {
+  font-weight: 900;
+  bottom: 0;
+}
+
+figure.snip1416 button {
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    border-style: groove;
+    border-radius: 50px;
+}
+
+figure.snip1416 button:hover {
+    
+    background: darkolivegreen;
+    
+}
+
+figure.snip1416 h3 {
+  font-size: 1em;
+  top: 0;
+  font-weight: 500;
+}
+figure.snip1416 h3:nth-of-type(2) {
   opacity: 0;
-  -webkit-transform: translateY(50%);
-  transform: translateY(50%);
+  -webkit-transform: translateY(-150%);
+  transform: translateY(-150%);
 }
-
-.snip1513 a i {
-  display: block;
-  font-size: 23.52941176px;
-  line-height: 40px;
-  width: 40px;
-  background-color: #ffffff;
-  text-align: center;
-  color: #000000;
-}
-
-.snip1513 a i:hover {
-  background-color: #000000;
+figure.snip1416 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   color: #ffffff;
-  cursor: pointer;
+  font-family: 'Khand', sans-serif;
+font-size: 20px;
+font-weight: 10px 
 }
-
-.snip1513:hover:before,
-.snip1513.hover:before {
-  opacity: 0.5;
+figure.snip1416:hover img,
+figure.snip1416.hover img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
-
-.snip1513:hover a,
-.snip1513.hover a {
-    /* edit text didalam gambar */
-    text-decoration: none;
+figure.snip1416:hover figcaption h3:first-of-type,
+figure.snip1416.hover figcaption h3:first-of-type {
+  -webkit-transform: translateY(-150%);
+  transform: translateY(-150%);
+  opacity: 0;
+}
+figure.snip1416:hover figcaption h3:nth-of-type(2),
+figure.snip1416.hover figcaption h3:nth-of-type(2) {
   opacity: 1;
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
-}
-
-.snip1513:hover a:nth-child(2),
-.snip1513.hover a:nth-child(2) {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
-
-.snip1513:hover a:nth-child(3),
-.snip1513.hover a:nth-child(3) {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
 }
 /*end effect*/
 
+.warna-putih {
+    background: white;
+    height: 210px;
+    margin-top: -100px;
+}
+
+.judul{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px; 
+    font-weight: 900;
+}
+
+.opening {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 30px;
+    font-weight: 900;
+}
